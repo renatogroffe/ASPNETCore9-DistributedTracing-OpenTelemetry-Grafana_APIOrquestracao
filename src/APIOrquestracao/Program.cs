@@ -73,7 +73,7 @@ var app = builder.Build();
 app.MapOpenApi();
 app.MapScalarApiReference(options =>
 {
-    options.Title = "API de Contagem";
+    options.Title = "API de Orquestracao";
     options.Theme = ScalarTheme.DeepSpace;
     options.DarkMode = true;
 });
